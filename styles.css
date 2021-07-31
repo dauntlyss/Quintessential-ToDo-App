@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f0c4;
+    background-image: linear-gradient(200deg, #f6f0c4 0%, #e26fb2 74%);
+}
+
+.wrapper {
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.wrapper header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.wrapper .inputfield {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputfield input {
+    width: 85%;
+    height: 100%;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 16px;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+

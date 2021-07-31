@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/56b3427f15.js" crossorigin="anonymous"></script>
     <title>Quintessential ToDo Applet</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header>My TODO Applet</header>
+        <div class="inputfield">
+            <input type="text" placeholder="Add your task">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="todoList">
+            <li>Do laundry <span><i class="fas fa-trash"></i></span></li>
+            <li>Buy groceries <span><i class="fas fa-trash"></i></span></li>
+            <li>Practice coding <span><i class="fas fa-trash"></i></span></li>
+            <li>Contemplate world peace <span><i class="fas fa-trash"></i></span></li>
+        </ul>
+        <div class="footer">
+            <span>You have 4 pending tasks</span>
+            <button>Clear All</button>
+        </div>
+    </div>
+
+
+
     <script src="app.js"></script>
 </body>
 </html>
