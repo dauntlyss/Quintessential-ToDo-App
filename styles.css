@@ -26,6 +26,8 @@ body {
 .wrapper header {
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
+    cursor: default;
 }
 
 .wrapper .inputfield {
@@ -44,3 +46,69 @@ body {
     padding-left: 20px;
 }
 
+.inputfield button {
+    width: 50px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #e26fb2e1;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 6px;
+}
+
+.wrapper .todoList {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todoList li {
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background-color: rgba(214, 210, 210, 0.404);
+    border-radius: 3px;
+    margin-bottom: 9px;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.todoList li span {
+    position: absolute;
+    right: -45px;
+    color: white;
+    width: 45px;
+    text-align: center;
+    background-color: #6f77e298;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover span{
+    right: 0px;
+}
+
+.wrapper .footer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.footer button {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #e26fb2e1;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
