@@ -31,7 +31,7 @@ addBtn.addEventListener('click', function() {
     showTasks();
 })
 
-todoList.addEventListener('keypress', function(e) {
+inputBox.addEventListener('keypress', function(e) {
     if (e.key == 'Enter') {
         let userData = inputBox.value;
         let getLocalStorage = localStorage.getItem("New Task");
